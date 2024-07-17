@@ -1,0 +1,43 @@
+batch processing:
+    Batch processing is a method of executing a series of tasks 
+    or jobs on a computer without manual intervention. It involves 
+    processing large volumes of data that are collected, processed, 
+    and produced as a batch. This approach is typically used for tasks that do 
+    not require immediate results and can be scheduled to run during 
+    off-peak hours.
+
+Key features of batch processing:
+    1. Non-interactive: Once started, batch jobs run to completion without
+     user intervention. They are usually set up to execute on a scheduled basis
+      or triggered by certain conditions.
+    
+    2. Large Volume Processing: Batch processing is well-suited for 
+     handling large datasets.It can efficiently process high volumes of 
+     data by dividing it into smaller chunks and executing them sequentially
+      or in parallel.
+
+    3. Efficiency: Since batch jobs can be scheduled to run during off-peak hours,
+     they make efficient use of computing resources, minimizing the impact on other
+      tasks and users.
+
+    4. Delayed Results: Unlike real-time processing, batch processing produces 
+    results after the entire batch has been processed. This delay is acceptable 
+    for tasks that do not require immediate feedback.
+
+When we use batch processing?
+
+    1. Data Transformation and ETL: Extracting data from various sources, transforming 
+        it to a desired format, and loading it into a target system, such as a 
+        data warehouse.
+
+    2. End-of-Day Processing: Financial institutions use batch processing for tasks like 
+        calculating interest, generating statements, and updating account balances.
+    
+    3. Reporting: Generating reports and summaries based on large datasets, 
+        often scheduled to run overnight so reports are ready by the next business day.
+
+    4. Backup and Archiving: Regularly backing up data and archiving old records 
+        for long-term storage.
+    
+    5. Data Analysis: Performing complex analytics on large datasets, such as trend analysis,
+        data mining, and machine learning model training.
