@@ -3,6 +3,7 @@
 # with columns: Date, Ticker, Open, High, Low, Close, and Volume.
 # You want to compute the daily average closing price for each stock.
 
+# PySpark is the python API for Apache Spark
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import avg
 
